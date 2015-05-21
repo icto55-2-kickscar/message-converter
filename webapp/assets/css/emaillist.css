@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+@import "common.css";
+
+#mail-list-wrap		{
+	margin:20px auto;	width:540px;
+}
+
+#mail-list {
+	margin: 30px 0; 
+}
+
+#mail-list table {
+	margin-bottom:10px;
+}
+
+.page-navigation	{
+	margin-top:20px;
+	text-align:left;	
+}
+
+#page-counter	{ 
+	display: inline-block;
+	font-size: 2.0em;
+	font-family:tahoma;
+	font-weight:bold;
+}
+
+.button {
+    display: inline-block;
+    background-image: none !important;
+    border: 1px solid;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0px;
+    line-height: 1.62857;
+    border-radius: 2px;
+    box-shadow: 0px -2px 0px rgba(0, 0, 0, 0.05) inset;
+    text-decoration: none;
+    font-size: 14px;
+    
+	padding: 10px 20px;
+	margin: 0px 1px;
+	
+	background-color: #FFF;
+	border-color: #ADADAD;
+	color: #333;		
+}
+
+.button.disable	{
+	background-color: #3276B1;
+	border-color: #2C699D;
+	color: #FFF;
+}
