@@ -1,7 +1,7 @@
 package com.sds.icto.controller;
 
 public class MemberVo {
-	private Long no1;
+	private Long no;
 	private String name;
 	private String email;
 	private String password;
@@ -15,10 +15,10 @@ public class MemberVo {
 		this.address = address;
 	}
 	public Long getNo() {
-		return no1;
+		return no;
 	}
 	public void setNo(Long no) {
-		this.no1 = no;
+		this.no = no;
 	}
 	public String getName() {
 		return name;
