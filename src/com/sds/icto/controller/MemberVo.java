@@ -6,6 +6,14 @@ public class MemberVo {
 	private String email;
 	private String password;
 	private String gender;
+	private String address;
+	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public Long getNo() {
 		return no;
 	}
