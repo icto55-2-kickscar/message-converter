@@ -19,12 +19,7 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${org.springframework-version}</version>
-			<exclusions>
-			   <exclusion>
-				  <groupId>commons-logging</groupId>
-				  <artifactId>commons-logging</artifactId>
-			   </exclusion>
-			</exclusions>			
+		
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -79,17 +74,7 @@
 		    <version>2.1.1</version>
 		</dependency>
 
-		<!-- LogBack dependencies --> 
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>${logback.version}</version>
-		</dependency>
-		<dependency>                                    
-			<groupId>org.slf4j</groupId>                
-			<artifactId>jcl-over-slf4j</artifactId>     
-			<version>${jcloverslf4j.version}</version>  
-		</dependency>
+
 		
 	</dependencies>
 
